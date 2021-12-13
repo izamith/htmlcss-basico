@@ -1,0 +1,57 @@
+body {
+    font-size: 16px;
+    background-color: #004d96;
+    color: #000;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: chartreuse;
+}
+
+section {
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.p_one {
+    background-image: url('https://static5.depositphotos.com/1036149/437/i/950/depositphotos_4370970-stock-photo-frog-3d-animated.jpg');    
+    background-size: cover;
+}
+.p_two {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwaNGSvDJC3Lq9AX6q8iv-z_9F9eFObC0sLt1KquKAulWWs2d-C46jQexXuBPMREPWDLI&usqp=CAU');
+    background-size: cover;
+}
+.p_three {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkxwdaBlHVHiHValW_yzfa-lnKTmfcadG_WaMIBrfI7YEDg2FV6tz6TmCLMaQz16MOKjs&usqp=CAU');    
+    background-size: cover;
+}
+.p_four {
+    background-image: url('https://static5.depositphotos.com/1036149/437/i/950/depositphotos_4370970-stock-photo-frog-3d-animated.jpg');    
+    background-size: cover;
+}
+
+header {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+footer a {
+    margin-right: 5px;
+}
