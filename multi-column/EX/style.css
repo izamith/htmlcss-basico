@@ -1,0 +1,17 @@
+body {
+    font-size: 16px; 
+    line-height: 1.5;
+    color: #47353a;
+}
+
+header {
+    padding: 10px 15px;
+}
+
+header h1{
+    float:left;
+}
+
+header nav {
+    float: right;
+}
