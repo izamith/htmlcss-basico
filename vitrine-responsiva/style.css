@@ -63,6 +63,15 @@ header nav {
     margin-bottom: 20px;
     margin-top: 30px;
 }
+
+.mid-links li {
+    display: inline;
+}
+
+.mid-links .hide-f {
+    display: none;
+}
+
 .mid-links a {
    color: #000;
    font-size: 16px;
@@ -114,9 +123,72 @@ header nav {
     position: absolute;
     bottom: 15px;
     left: 15px;
-
 }
 
 .product h4 {
     font-size: 20px;
+}
+
+.mid-links .hide-f {
+    color: grey;
+}
+
+@media (max-width: 860px) {
+   .wrap {
+       padding-left: 60px;
+       padding-right: 60px;
+   }
+
+   .product {
+       width: 50%;
+   }
+}
+
+
+
+@media (max-width: 620px) {
+
+    .hero {
+        background-color: antiquewhite;
+        background-image: none;
+        padding-top: 30px;
+        padding-bottom: 30px; 
+    }
+
+    .intro {
+        max-width: none;
+    }
+
+    .intro h2 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .intro p {
+        font-size: 16px;
+    }
+
+    .wrap {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .product {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .mid-links a {
+        font-size: 16px;
+        display: block;
+       
+    }
+
+    .mid-links .hide-f {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    
+
 }
